@@ -6,7 +6,7 @@ Stand: 26.08.2022, Version 1.0
 
 Diese Allgemeinen Geschäftsbedingungen (AGB) regeln die Vertragsbeziehungen von
 
-owntag
+owntag  
 Inhaber Justus Blümer  
 Gneisenaustraße 10  
 20253 Hamburg  
@@ -32,7 +32,7 @@ Für den Kunden ist die jeweilige Leistungsbeschreibung im Zeitpunkt der Abgabe 
 
 **Nutzer**: Der Endnutzer, dessen Daten ("Nutzerdaten") vom Kunden mit Hilfe der von owntag im Auftrag des Kunden betriebenen Software verarbeitet werden.
 
-**Kunde**: Der Vertragspartner von owntag, der owntag mit dem technischen Betrieb von owntag beauftragt hat.
+**Kunde**: Der Vertragspartner von owntag, der owntag mit der Erbringung der gebuchten Leistung beauftragt hat.
 
 **Setup**: Eine durch owntag aus dem von Google Inc. veröffentlichten SGTM Docker Image bereitgestellte Installation des Google Tag Manager Server Side Containers, die der Kunde nutzt.
 
@@ -48,15 +48,19 @@ owntags Kunde hat keinen Anspruch auf eine eine bestimmte Funktionsweise oder au
 owntag stellt im Auftrag des Kunden Serverressourcen bereit, nutzt diese für den Betrieb einer Instanz des SGTM und stellt diese dann seinen Kunden zur Verfügung.  
 Der Kunde nutzt dann den SGTM, um über das HTTP Protokoll Daten entgegenzunehmen, in eigener Verantwortung mit Hilfe des SGTM zu verarbeiten und an den endgültigen Datenempfänger weiterzuleiten.
 
-Der Kunde erhält das nicht ausschließliche, auf die Laufzeit des Vertrages zeitlich beschränkte Recht, die mit Nutzung der Webserver verbundenen Softwarefunktionalitäten gemäß diesen AGB und den Lizenzbestimmungen der Softwareanbieter zu nutzen. Darüber hinaus gehende Rechte erhält der Kunde nicht.  
+Der Kunde erhält das nicht ausschließliche, auf die Laufzeit des Vertrages zeitlich beschränkte Recht, die mit Nutzung der Webserver verbundenen Softwarefunktionalitäten gemäß diesen AGB zu nutzen.  
+Darüber hinaus gehende Rechte erhält der Kunde nicht.  
 
-Die Verantwortung für die stattfindenden Datenverarbeitung im SGMT liegt ausschließlich beim Kunden. Regelmäßig hat owntag sogar, obwohl sie die Serverinfrastruktur zur Verfügung stellen, technisch keinen direkten Zugriff auf diese Verarbeitung.
+Der Kunde nimmt zur Kenntnis, dass der SGTM ggf. unter Lizenzbedingungen von Google Inc. steht, die der Kunde selbst zu beachten hat (siehe z. B. https://www.google.com/analytics/terms/tag-manager/). owntags Hinweis auf solche Lizenzbedingungen entbindet den Kunden nicht von der Pflicht, sich selbst über diese Lizenzbedingungen zu informieren.  
+owntag übernimmt keine Haftung für Schäden, die aus der Verletzung solcher Lizenzbedingungen Dritter entstehen.
+
+Die Verantwortung für die stattfindenden Datenverarbeitung im SGTM liegt ausschließlich beim Kunden. Regelmäßig hat owntag sogar, obwohl es die Serverinfrastruktur zur Verfügung stellt, technisch keinen direkten Zugriff auf diese Verarbeitung.
 
 ## Logging
 
 owntag betreibt einen Dienst zur Organisation und Weiterleitung von Daten, nicht zur Speicherung von Daten. Auch wenn die Speicherung von Daten über den SGTM gesteuert werden kann, findet diese Speicherung nicht _bei owntag_ statt.
 
-Hiervon ausgenomme: owntag wird eingehende Daten temporär speichern, um Fehler im Betrieb zu beobachten, zu identifizieren und zu beheben ("Logging").
+Hiervon ausgenommen: owntag wird eingehende Daten temporär speichern, um Fehler im Betrieb zu beobachten, zu identifizieren und zu beheben ("Logging").
 Das Logging, sowohl für owntag als auch für den Kunden, findet für einen Zeitraum von maximal 30 Tagen statt. Weder der Kunde noch andere Parteien haben einen _Anspruch_ auf das Logging, es handelt sich um eine reine Kulanzleistung, die nicht Bestandteil des Vertrags ist.
 
 ### Logging für den Kunden
@@ -102,11 +106,9 @@ Der Kunde programmiert, wartet, betreibt die Analyse- und Marketingtechnologie-I
 
 # Zustandekommen des Vertrags
 
-Der Vertrag kommt im elektronischen Geschäftsverkehr zu den über die Website von owntag angebotenen Server-Dienstleistungen dadurch zustande, dass der Kunde die dort angebotenen Leistungen von owntag in einem auf der Webseite durch owntag bereit gehaltenen System bestellt und owntag die Bestellung des Kunden durch eine Auftragsbestätigung annimmt.
+Der Vertrag kommt im elektronischen Geschäftsverkehr zu den über die Website von owntag angebotenen Server-Dienstleistungen dadurch zustande, dass der Kunde die dort angebotenen Leistungen von owntag in einem auf der Webseite durch owntag bereit gehaltenen System bestellt und owntag die Bestellung des Kunden annimmt und Setup bereitstellt.
 
 Der Kunde ist an seine Bestellung (verbindliches Angebot) von Leistungen nach Ziffer 3.1 für die Dauer von fünf Tagen gebunden.
-
-Mit Zugang der Auftragsbestätigung beim Kunden auf dessen Bestellung ist der Vertrag abgeschlossen. Die Laufzeit des Vertrages beginnt erst mit Freischaltung des Zugangs (Account) des Kunden. Eine dem Kunden unverzüglich nach Eingang einer Bestellung zugesandte Bestellbestätigung alleine begründet den Vertragsabschluss nicht.
 
 owntag behält sich jederzeit ausdrücklich vor, eine Bestellung aus beliebigem Grund im Einzelfall nicht anzunehmen.
 
@@ -160,16 +162,17 @@ owntag kann den Zugang zu den Leistungen beschränken, sofern die Sicherheit des
 
 ## Zahlungsbedingungen
 
-Wenn nicht anderes vereinbart ist, werden Leistungen von owntag nach Leistungserbringung und Übergabe einer Rechnung zur Zahlung fällig.
+Die Leistungen von owntag werden monatlich jeweils am Monatsende abgerechnet.  
+Nur anteilig genutzte Monate werden tagesgenau anteilig berechnet.
 
-Der Kunde erhält eine Rechnung bzw. Berechnung der vereinbarten und fälligen Vergütung in elektronischer Form als PDF-Dokument. 
-Kunden erhalten auf ausdrücklichen Wunsch eine den Steuervorschriften entsprechend ausgestellte Rechnung auf dem Postweg zugesandt. Ein Anspruch des Kunden auf eine digital signierte Rechnung (§ 14 Abs. 3 UStG) besteht nicht.
+Der Kunde kann per automatischem Einzug via SEPA Lastschrift oder per Kreditkarte über den Zahlungsdienstleister Stripe bezahlen.  
+Andere Zahlungsarten sind nicht vorgesehen, sofern nicht ausdrücklich anders vereinbart.
+
+Der Kunde erhält eine Rechnung bzw. Berechnung der vereinbarten und fälligen Vergütung in elektronischer Form als PDF-Dokument. Sie wird nach jedem abgelaufenen Kalendermonat an die bei owntag hinterlegte E-Mail-Adresse des abrechnungsverantwortlichen Nutzers gesendet. Ein Anspruch des Kunden auf eine digital signierte Rechnung (§ 14 Abs. 3 UStG) besteht nicht.
 
 Im Falle des Verzugs des Kunden mit seinen fälligen Zahlungsverpflichtungen ist owntag berechtigt, den Zugang des Kunden auf die von owntag bereitgestellten Ressourcen einzuschränken. owntag wird den Kunden auf diese Folge seines Zahlungsverzugs in einer Mahnung hinweisen, welche mittels E-Mail an die vom Kunden zuletzt genannte E-Mail-Adresse versandt wird. Ist die Mahnung per E-Mail nicht zustellbar, ist owntag berechtigt, den Zugang sofort vorläufig zu sperren. Im Verzug des Kunden besteht die Zahlungspflicht des Kunden trotz gesperrtem Zugang fort.
 
 Änderungen der Preise werden dem Kunden mindestens sechs Wochen vor ihrem geplanten Wirksamwerden in Textform mitgeteilt. Dem Kunden steht bei einer Preiserhöhung das Recht zu, den Vertrag ohne Einhaltung einer Kündigungsfrist zum Zeitpunkt des Wirksamwerdens der Preisanpassung in Textform zu kündigen. Hierauf wird owntag den Kunden in der Änderungs- mitteilung besonders hinweisen. Im Übrigen bleibt § 315 BGB unberührt.
-
-Unabhängig von den vorstehenden Regelungen ist owntag für den Fall einer Erhöhung der gesetzlichen Umsatzsteuer berechtigt und für den Fall einer Senkung verpflichtet, die Preise zum Zeitpunkt der jeweiligen Änderung entsprechend anzupassen. Wegen einer solchen Preisanpassung hat der Kunde kein Kündigungsrecht.
 
 # Sperrung
 
@@ -199,7 +202,7 @@ Mit Forderungen von owntag kann der Kunde nur aufrechnen, soweit diese Forderung
 
 Eine Haftung von owntag – gleich aus welchem Rechtsgrund – besteht ausschließlich im Rahmen der nachfolgenden Bestimmungen.
 
-Unbeschränkte Haftung: owntag haftet für Vorsatz und grobe Fahrlässigkeit. Für leichte Fahrlässigkeit haften owntag nach Maßgabe des Produkthaftungsgesetzes aufgrund des Telekommunikationsgesetzes sowie bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit von Personen.
+Unbeschränkte Haftung: owntag haftet für Vorsatz und grobe Fahrlässigkeit. Für leichte Fahrlässigkeit haftet owntag nach Maßgabe des Produkthaftungsgesetzes aufgrund des Telekommunikationsgesetzes sowie bei Schäden aus der Verletzung des Lebens, des Körpers oder der Gesundheit von Personen.
 
 Haftungsbeschränkung: owntag haftet bei leichter Fahrlässigkeit im Übrigen nur bei der Verletzung einer wesentlichen Vertragspflicht, deren Erfüllung die ordnungsgemäße Durchführung des Vertrags überhaupt erst ermöglicht und auf deren Einhaltung der Vertragspartner regelmäßig vertrauen darf (Kardinalpflicht). Diese Haftungsbeschränkung gilt auch zugunsten der Erfüllungsgehilfen von owntag.
 
@@ -235,7 +238,7 @@ Soweit nicht der gesamte Vertrag gekündigt wird, sondern lediglich die Kündigu
 
 # Anwendbares Recht, Gerichtsstand, Unwirksamkeit
 
-ür die von owntag auf der Grundlage dieser AGB abgeschlossenen Verträge und für die hieraus folgenden Ansprüche, gleich welcher Art, gilt ausschließlich das Recht der Bundesrepublik Deutschland. Für den Fall des Abschlusses von Verträgen mit Verbrauchern, die ihren Sitz nicht in Deutschland haben, bleiben die zwingenden verbraucherschützenden Vorschriften des Rechts der Verbraucher in ihrem jeweiligen Heimatstaat, welches für ihren Sitz gilt, von Satz 1 unberührt.
+Für die von owntag auf der Grundlage dieser AGB abgeschlossenen Verträge und für die hieraus folgenden Ansprüche, gleich welcher Art, gilt ausschließlich das Recht der Bundesrepublik Deutschland. Für den Fall des Abschlusses von Verträgen mit Verbrauchern, die ihren Sitz nicht in Deutschland haben, bleiben die zwingenden verbraucherschützenden Vorschriften des Rechts der Verbraucher in ihrem jeweiligen Heimatstaat, welches für ihren Sitz gilt, von Satz 1 unberührt.
 
 Gerichtsstand für sämtliche Ansprüche aus den Vertragsbeziehungen zwischen den Vertragsparteien sich ergebenden Streitigkeiten, insbesondere über das Zustandekommen, die Abwicklung oder die Beendigung des Vertrages ist - soweit der Kunde Vollkaufmann, juristische Person des öffentlichen Rechts oder öffentlich-rechtliches Sondervermögen ist – der Sitz von owntag.
 
@@ -255,14 +258,14 @@ Gneisenaustraße 10
 20253 Hamburg  
 Deutschland
 
-Ust-ID: DE12345678
+Ust-ID: DE316044987
 
 Vertreter in Mitgliedsstaaten, in denen der Verbraucher seinen Wohnsitz hat, sind nicht bestellt. Der Telemediendienst von owntag bedarf keiner behördlichen Zulassung.
 
-## Weiter Informationen
+## Weitere Informationen
 
 Der elektronische Bestellvorgang auf der Webseite enthält für alle Kunden angemessene, wirksame und zugängliche technische Mittel, mit deren Hilfe der Kunde Eingabefehler vor Abgabe seiner Bestellung erkennen und berichtigen kann.
 
 ## Preisangaben
 
-Die auf der Webseite angezeigten Preise sind Nettopreise, exklusive der Mehrwertsteuer. Kunden mit ihrem Wohnort bzw. Sitz in einem anderen Land der EU bzw. in einem Drittland können sich den für ihr Land geltenden Gesamtpreis gesondert anzeigen lassen. Die Gesamtpreise können daher aufgrund der unterschiedlichen Steuersätze nach oben oder nach unten abweichen. Weitere Liefer- und Versandkosten sowie Steuern oder Kosten, die nicht über owntag abgeführt werden, fallen nicht an.
+Die auf der Webseite angezeigten Preise sind Nettopreise, exklusive der Mehrwertsteuer. Die Mehrwertsteuer wird auf der Rechnung separat ausgewiesen.
