@@ -1,6 +1,6 @@
 # Allgemeine Geschäftsbedingungen owntag.eu
 
-Stand: 26.08.2022, Version 1.0
+Stand: 27.08.2024, Version 1.1
 
 ## Vertragspartner, Geltungsbereich
 
