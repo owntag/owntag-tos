@@ -258,7 +258,7 @@ Gneisenaustraße 10
 20253 Hamburg  
 Deutschland
 
-Ust-ID: DE316044987
+Ust-ID: DE451812955
 
 Vertreter in Mitgliedsstaaten, in denen der Verbraucher seinen Wohnsitz hat, sind nicht bestellt. Der Telemediendienst von owntag bedarf keiner behördlichen Zulassung.
 
